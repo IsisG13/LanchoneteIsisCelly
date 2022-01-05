@@ -10,7 +10,7 @@ const Footer = () => {
             <div className={styles.item}>
                 <div className={styles.card}>
                     <h2 className={styles.motto}>
-                        OH YES, WE DID.THE LAMA PIZZA, WELL BAKED SLICE OF PIZZA.
+                        UAU, ESSE SITE FOI CRIADO POR ISIS E MARCELLY!! ATENÇÃO: NÃO SE ILUDA ACHANDO QUE VAI GANHAR COMIDA 😉.
                     </h2>
                 </div>
                 <div className={styles.card}>
