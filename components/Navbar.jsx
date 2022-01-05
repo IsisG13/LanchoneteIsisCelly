@@ -14,13 +14,13 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className={styles.listItem}>
-                        <Link href='#products'>
+                        <Link href='/#products'>
                             Products
                         </Link>
                     </li>
                     <p className={styles.logo}>ISIS CELLY</p>
                     <li className={styles.listItem}>
-                        <Link href='/orders/1'>
+                        <Link href='/product/1'>
                             Menu
                         </Link>
                     </li>
