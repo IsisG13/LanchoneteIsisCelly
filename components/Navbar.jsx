@@ -10,12 +10,12 @@ const Navbar = () => {
                 <ul className={styles.list}>
                     <li className={styles.listItem}>
                         <Link href='/'>
-                            Home
+                            Início
                         </Link>
                     </li>
                     <li className={styles.listItem}>
                         <Link href='/#products'>
-                            Products
+                            Produtos
                         </Link>
                     </li>
                     <p className={styles.logo}>ISIS CELLY</p>
@@ -26,7 +26,7 @@ const Navbar = () => {
                     </li>
                     <li className={styles.listItem}>
                         <Link href='#contacts'>
-                            Contacts
+                            Contatos
                         </Link>
                     </li>
                 </ul>

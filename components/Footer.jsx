@@ -14,36 +14,36 @@ const Footer = () => {
                     </h2>
                 </div>
                 <div className={styles.card}>
-                    <h1 className={styles.title}>FIND OUR RESTAURANTS</h1>
+                    <h1 className={styles.title}>ENDEREÇOS DAS LANCHONETES</h1>
                     <p className={styles.text}>
-                        1654 R. Don Road #304.
-                        <br /> NewYork, 85022
+                        8348 R. Caroll, Tomba  #304.
+                        <br /> Brasil, 83764
                         <br /> (602) 867-1010
                     </p>
                     <p className={styles.text}>
-                        2356 K. Laquie Rd #235.
-                        <br /> NewYork, 85022
+                        7683K. R. Marechal Deodoro, Centro #235.
+                        <br />Brasil, 93847
                         <br /> (602) 867-1011
                     </p>
                     <p className={styles.text}>
-                        1614 E. Erwin St #104.
-                        <br /> NewYork, 85022
+                        1614 R. E. Erwin #104.
+                        <br /> Brasil 87394
                         <br /> (602) 867-1012
                     </p>
                     <p className={styles.text}>
-                        1614 W. Caroll St #125.
-                        <br /> NewYork, 85022
+                        1614 R. W. Caroll #125.
+                        <br /> Brasil 73684s
                         <br /> (602) 867-1013
                     </p>
                 </div>
                 <div className={styles.card}>
-                    <h1 className={styles.title}>WORKING HOURS</h1>
+                    <h1 className={styles.title}>HORÁRIO DE FUNCIONAMENTO</h1>
                     <p className={styles.text}>
-                        MONDAY UNTIL FRIDAY
+                        SEGUNDA A SEXTA
                         <br /> 9:00 – 22:00
                     </p>
                     <p className={styles.text}>
-                        SATURDAY - SUNDAY
+                        SÁBADO - DOMINGO
                         <br /> 12:00 – 24:00
                     </p>
                 </div>

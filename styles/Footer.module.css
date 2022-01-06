@@ -28,6 +28,7 @@
 
 .text {
     color: var(--lightGray);
+    margin-bottom: 15px;
 }
 
 .motto {

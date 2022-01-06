@@ -16,9 +16,9 @@ const Order = () => {
                     <table className={styles.table}>
                         <thead>
                             <tr className={styles.trTitle}>
-                                <th>Order ID</th>
-                                <th>Customer</th>
-                                <th>Address</th>
+                                <th>ID do pedido</th>
+                                <th>Cliente</th>
+                                <th>Endereço</th>
                                 <th>Total</th>
                             </tr>
                         </thead>
@@ -28,7 +28,7 @@ const Order = () => {
                                     <span className={styles.id}>129837819237</span>
                                 </td>
                                 <td>
-                                    <span className={styles.name}>John Doe</span>
+                                    <span className={styles.name}>Isis Celly</span>
                                 </td>
                                 <td>
                                     <span className={styles.address}>Elton st. 212-33 LA</span>
@@ -43,7 +43,7 @@ const Order = () => {
                 <div className={styles.row}>
                     <div className={statusClass(0)}>
                         <Image src="/img/paid.png" width={30} height={30} alt="" />
-                        <span>Payment</span>
+                        <span>Pagamento</span>
                         <div className={styles.checkedIcon}>
                             <Image
                                 className={styles.checkedIcon}
@@ -56,7 +56,7 @@ const Order = () => {
                     </div>
                     <div className={statusClass(1)}>
                         <Image src="/img/bake.png" width={30} height={30} alt="" />
-                        <span>Preparing</span>
+                        <span>Preparando</span>
                         <div className={styles.checkedIcon}>
                             <Image
                                 className={styles.checkedIcon}
@@ -69,7 +69,7 @@ const Order = () => {
                     </div>
                     <div className={statusClass(2)}>
                         <Image src="/img/bike.png" width={30} height={30} alt="" />
-                        <span>On the way</span>
+                        <span>A caminho</span>
                         <div className={styles.checkedIcon}>
                             <Image
                                 className={styles.checkedIcon}
@@ -82,7 +82,7 @@ const Order = () => {
                     </div>
                     <div className={statusClass(3)}>
                         <Image src="/img/delivered.png" width={30} height={30} alt="" />
-                        <span>Delivered</span>
+                        <span>Entregue</span>
                         <div className={styles.checkedIcon}>
                             <Image
                                 className={styles.checkedIcon}
@@ -97,18 +97,18 @@ const Order = () => {
             </div>
             <div className={styles.right}>
                 <div className={styles.wrapper}>
-                    <h2 className={styles.title}>CART TOTAL</h2>
+                    <h2 className={styles.title}>Preço total</h2>
                     <div className={styles.totalText}>
                         <b className={styles.totalTextTitle}>Subtotal:</b>R$7,00
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Discount:</b>R$0,00
+                        <b className={styles.totalTextTitle}>Desconto:</b>R$0,00
                     </div>
                     <div className={styles.totalText}>
                         <b className={styles.totalTextTitle}>Total:</b>R$7,00
                     </div>
                     <button disabled className={styles.button}>
-                        PAID
+                        Pago
                     </button>
                 </div>
             </div>
